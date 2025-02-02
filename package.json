@@ -2,7 +2,6 @@
   "name": "aditya",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://username.github.io/repository-name",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
