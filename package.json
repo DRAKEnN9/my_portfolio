@@ -1,12 +1,16 @@
 {
   "name": "aditya",
   "version": "0.1.0",
+  "homepage": "https://DRAKEnN9.github.io/my_portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "export": "next export", 
+  "predeploy": "npm run build && npm run export", 
+  "deploy": "gh-pages -d out", 
     "setup": "node ./scripts/setup.js"
   },
   "dependencies": {
