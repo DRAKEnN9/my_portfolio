@@ -131,7 +131,7 @@ export default function Header({ children }) {
 
 function ResumeViewer({ openResume }) {
     // Define the resume file path
-    const resume = "/CV/resume.pdf"; // Update this path to match your file location
+    const resume = "../../public/CV/resume.pdf"; // Update this path to match your file location
 
     function dowloadCv() {
         if (!resume) {
